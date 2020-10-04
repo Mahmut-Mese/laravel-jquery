@@ -1,0 +1,240 @@
+@font-face {
+font-family: 'Gibson';
+src: url("../fonts/Gibson-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Gibson';
+font-weight: 600;
+src: url("../fonts/Gibson-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Gibson';
+font-weight: bold;
+src: url("../fonts/Gibson-Bold.otf") format("opentype");
+}
+
+body{
+	font-family: 'Gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.t_green{
+	color: green;
+}
+
+.t_red{
+	color: red;
+}
+
+/*
+body {
+  overflow: hidden;
+}
+*/
+.fa{
+	font-size: 16px!important;
+}
+
+.a_black{
+	color: black;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+ 
+    background-color: #145277;
+}
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url('../images/status.gif');
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+
+
+
+
+
+.form-group{
+	padding:0 15px 0 15px;
+}
+
+.pt50{
+	padding-top: 50px;
+}
+
+.pb50{
+	padding-bottom: 50px;
+}
+
+.navbar-right{
+	margin-right: 25px;
+}
+
+.footerspace{
+	height:50px;
+}
+
+.nav-link {
+    color: #ffffff!important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+
+.navbar-default{
+	background-color: black;
+	padding: 20px 0 20px;
+}
+
+.label{
+	font-weight: normal!important;
+	padding: 0.4em 0.6em 0.3em!important;
+	margin-right: 2px;
+	line-height: 2!important;
+}
+
+.label-default {
+    background-color: black;
+}
+
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  /*font-family: roboto;*/
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  /*font-family: roboto;*/
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  /*font-family: roboto;*/
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    color: #fff;
+    min-height: 500px;
+    padding-top: 140px;
+    border-radius: 0;
+    background-image: url('https://cdn.dometic.com/-/media/images/lifestyle/dometic_place_road_grass_day12_0676.jpg?h=550&w=1920&crop=1&hash=F7A03917F6AC2AC62FE8646A1FE28883368E521A');
+}
+
+.jumbotron-heading {
+    margin-bottom: 20px;
+    text-shadow: 0 0 0.2em rgba(0,0,0,0.2);
+    font-size: 86px;
+	font-weight: bold;
+	text-transform: uppercase;

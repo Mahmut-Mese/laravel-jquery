@@ -1,0 +1,39 @@
+/* cyrillic-ext */
+
+
+@font-face {
+  font-family: "helvetica-neue-light";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/helvetica-neue-light-598449ed082dc.ttf");
+
+}
+@font-face {
+  font-family: "Helvetica Neue 53 Ext";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/new/HelveticaNeueLTPro-Ex.otf");
+
+}
+@font-face {
+  font-family: "helvetica-neue-ext-43";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/new/HelveticaNeueLTPro-LtEx.otf");
+
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/HelveticaNeue.ttf");
+
+}
+@font-face {
+  font-family: "Arial";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/arial-59847337b3bea.ttf");
+
+}

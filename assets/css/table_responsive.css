@@ -1,0 +1,88 @@
+
+	@media 
+	only screen and (max-width: 760px),
+
+	(min-device-width: 768px) and (max-device-width: 1023px)  {
+	
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr { 
+			display: block; 
+		}
+		
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr { 
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		
+		tr { border: 1px solid #ccc; }
+		
+		td { 
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee; 
+			position: relative;
+			padding-left: 42% !important;
+		}
+		
+		td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+		}
+		tr{margin-bottom: 20px;    background: #f7f7f7;}
+		.form-control {
+  
+    background-color: #f7f7f7;}
+    .basket .table img {
+ 
+    margin: 8px;margin-bottom: 50px;}
+		/*
+		Label the data
+		*/  
+		td:nth-of-type(1):before { content: "ÜRÜN";    color: #9a9a9a; font-weight: 700;font-size: 13px;}
+		td:nth-of-type(2):before { content: "ADET";     color: #9a9a9a;font-weight: 700;font-size: 15px;}
+		td:nth-of-type(3):before { content: "FİYAT";    color: #9a9a9a;font-weight: 700;font-size: 15px; }
+		td:nth-of-type(4):before { content: "TOPLAM FİYAT";    color: #9a9a9a;font-weight: 700;font-size: 15px; }
+	.product_name{padding-left: 0 !important;    padding-top: 25px !important;}
+	.basket .small_td {
+    width: auto;
+}
+.basket .input-group {
+    width: 93px;    margin: 0;
+  
+}.last_row td:nth-of-type(1){display: none;}
+.last_row td:nth-of-type(2){display: none;}
+.last_row td:nth-of-type(3){display: none;}
+      
+		.last_row td:nth-of-type(4):before { content: "TOPLAM";    color: #9a9a9a;font-weight: 700;font-size: 15px; }
+	}
+	
+	
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body { 
+			padding: 0; 
+			margin: 0; 
+			/*width: 320px; */
+		}
+		}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+		body { 
+			
+		}
+		td {
+
+    padding-left: 24% !important;
+}
+	}
